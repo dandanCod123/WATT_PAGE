@@ -162,12 +162,19 @@ export const Button = styled.button`
 height: 32px;
 width: 159px;
 
+border: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
 
-border-radius: 0px;
+    text-decoration: none;
+
 margin-bottom: 20px;
 
 margin-left: 68px;
 
+text-decoration: none;
+    color: #ffff;
 
 background: #F7CB07;
 `; 
@@ -177,8 +184,13 @@ export const Button2 = styled.button`
 height: 32px;
 width: 159px;
 
+border-radius: 5px;
+border: none;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffff;
 
-border-radius: 0px;
 margin-bottom: 20px;
 margin-top: -80px;
 margin-left: 68px;
@@ -186,6 +198,9 @@ margin-left: 68px;
 
 background: #F7CB07;
 `;
+/////---------------------------
+
+
 
 export const Paragr_Card2 = styled.div`
 
